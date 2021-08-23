@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 
 const Project = ({value}) => {
     const [status, setStatus] = useState(false);
@@ -20,7 +20,7 @@ const Project = ({value}) => {
             </div>
                 {status?<div className="check">
                     <img src={`${projectImg}`} alt={projectName} />
-                    <a target="_blank" href={projectLink}>open</a>
+                    <a target="_blank" rel="noreferrer" href={projectLink}>open</a>
                 </div>:""}
         </div>
     )

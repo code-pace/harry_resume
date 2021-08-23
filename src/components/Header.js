@@ -9,7 +9,7 @@ const Header = ({mydata}) => {
                         return (slackName)
                     })}
                 </p>
-                <a href="">
+                <a target="_blank" rel="noreferrer" href="https://internship.zuri.team/join">
                     <img src="https://ingressive.org/wp-content/uploads/2020/05/I4G-Logo-Color-Cropped.png" alt="zuri-internship" className="zuri-logo" />
                 </a>
             </nav>

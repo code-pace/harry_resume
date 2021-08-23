@@ -10,9 +10,9 @@ const Footer = () => {
                 <div className="social">
                     <h1>- Socials</h1>
                     <div className="social-links">
-                        <a target="_blank" href="https://github.com/code-pace"><i className="fab fa-github"></i></a>
-                        <a target="_blank" href="https://twitter.com/code_pace"><i className="fab fa-twitter"></i></a>
-                        <a target="_blank" href="https://www.linkedin.com/in/chinedu-anyika"><i className="fab fa-linkedin"></i></a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/code-pace"><i className="fab fa-github"></i></a>
+                        <a target="_blank" rel="noreferrer" href="https://twitter.com/code_pace"><i className="fab fa-twitter"></i></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/chinedu-anyika"><i className="fab fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div className="contacts">
